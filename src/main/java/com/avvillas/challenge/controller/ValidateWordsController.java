@@ -28,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/validateWords")
 @Api(tags = "validateWords", value = "API para comparar palabras.")
 @Slf4j
-public class validateWordsController {
+public class ValidateWordsController {
 	
 	@Autowired
 	IValidateWordsService validateWordsService;
