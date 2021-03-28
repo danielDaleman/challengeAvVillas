@@ -1,4 +1,4 @@
-package com.avvillas.challenge.challengeAvVillas;
+package com.avvillas.challenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
