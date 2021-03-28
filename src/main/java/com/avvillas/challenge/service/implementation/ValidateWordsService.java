@@ -26,7 +26,7 @@ public class ValidateWordsService implements IValidateWordsService{
 			if(!listaDos.contains(item)) {
 				validate = false;
 			}
-		};		
+		}		
 		
 		return validate;
 	}

@@ -1,6 +1,7 @@
 package com.avvillas.challenge.util;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ConverterUtil {	
@@ -13,6 +14,11 @@ public class ConverterUtil {
 		}	
 		
 		return response;		
+	}
+	
+	public static List<String> convertSentenceToList(String sentence){		
+		String[] words = sentence.split(" ");				
+		return Arrays.asList(words);		
 	}
 	
 }
