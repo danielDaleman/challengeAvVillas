@@ -6,6 +6,10 @@ import java.util.List;
 
 public class ConverterUtil {	
 	
+	private ConverterUtil() {
+		throw new IllegalStateException("Utility class");
+	}
+	
 	public static List<Character> convertStringToList(String word){
 		
 		List<Character> response = new ArrayList<>();
