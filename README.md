@@ -6,7 +6,7 @@
 Es un API RestFul el cual se encarga de:
 1. Validar si dos palabras contienen la misma longitud y letras entre si.
 2. Validar si dos frases entre si, tienen palabras que contengan las mismas letras(Igual al caso 1), valida cuantas y cuales.
-3. Valida si tres frases entre si, tienen palabras que contengan las mismas letras(Igual al caso 1 y 2), valida cuantas y cuales. Además cuanta con la siguientes operaciones: Cargar frases, Consultar frases y Eliminar frases
+3. Valida si tres frases entre si, tienen palabras que contengan las mismas letras(Igual al caso 1 y 2), valida cuantas y cuales. Además cuenta con la siguientes operaciones: Cargar frases, Consultar frases y Eliminar frases
 
 ### Tecnologías usadas
 - Java 11
