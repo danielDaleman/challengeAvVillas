@@ -24,9 +24,9 @@ public class ValidateSentencesPersisService implements IValidateSentencesPersisS
 	private IValidateWordsService validateWordsService;
 	
 	
-	private static boolean validate;
-	private static Integer count;
-	private static StringBuilder wordsMatch;
+	private boolean validate;
+	private Integer count;
+	private StringBuilder wordsMatch;
 	
 	@Override
 	public SentencesResponse validateSentences() throws BusinessException {
